@@ -1,3 +1,4 @@
+[![Build Status](https://www.travis-ci.com/CloaizaF/ci-me-please.svg?branch=main)](https://www.travis-ci.com/CloaizaF/ci-me-please)
 # ci-me-please
 Sample Gradle app for learning CI
 
