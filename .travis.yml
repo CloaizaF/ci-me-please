@@ -9,3 +9,10 @@ script:
   - ./gradlew test
   - ./gradlew build 
   - ./gradlew run
+
+notifications:
+  slack: 
+    rooms:
+      - praxisunal:NOEwF8jyKirLXm8yXdJg4dEw#Camilo Loaiza
+    on_success: change 
+    on_failure: always 
