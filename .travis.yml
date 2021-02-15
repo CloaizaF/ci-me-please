@@ -1,18 +1,15 @@
 language: java
 install: skip
-
 os: linux
 dist: trusty
 jdk: oraclejdk8
-
 script:
-  - ./gradlew test
-  - ./gradlew build 
-  - ./gradlew run
-
+- "./gradlew test"
+- "./gradlew build"
+- "./gradlew run"
 notifications:
-  slack: 
+  slack:
     rooms: 
-      - praxisunal:NOEwF8jyKirLXm8yXdJg4dEw
+      - secure: eKzVygUy688qQnPN9LX1H68i/Og93m1ZD7cSOvF0o0thOg8/Jz/QXbQoy1MMjhVbn0yATK3BVRzb3E2vRlXLSY6Grq+o+kHOcyTgGTBTNgd7N+NWPzOFJqPaV4VpDQjYtNrEBi4N7qb81vnedPwb4lotW+N9fEXjnfN5aITYAo3Fk9g99+Rgxvh0UQNdYJhdMeTpyw9+Pg8ERdOKJReXFh4Lt93t1lHE6O24Bz2CmPUufW7MA0/ZhvVB/Rw0C1lZ3vUIy8zxpdO3khzT7oUp9hlzVXG/2ve5sD7bxindVSiTy0kIsBRuq2MtGbfFp6uxFSC140rM4YNuURpELPSXarC9KCqt7s3N11en/w/+vcqv5D/tgy2+W0o6Of7MgasdA/dYsRWxDMFQEEoXoZAXLCt9pC9O6K69C5xybV32L7rFFcPy2n929E31CY44yGP8cN7hKAKweUhgbeyaPxoAG+HKtomXwL3xejvzE+V66c+GIyqKoUbu8RahmLAj/SxHm1CGz8kDt+/jYL5IP1F3UkupiwoJzBs5hDbD9IucN84a3o3okcd876KzpQuIW3TowKuDRR7O/C4rU7K5qGwI0Y3Vuli8WgI0rFXQi6lMhH+sagb/gWWl5cfP3PrE//xAb5OlIfh1l94rRaxOXu5LnDHk64ASuH68Kyu62aNI9xY=
     on_success: always
     on_failure: always
