@@ -11,4 +11,8 @@ script:
   - ./gradlew run
 
 notifications:
-  slack: praxisunal:NOEwF8jyKirLXm8yXdJg4dEw
+  slack: 
+    rooms: 
+      - praxisunal:NOEwF8jyKirLXm8yXdJg4dEw
+    on_success: always
+    on_failure: always
